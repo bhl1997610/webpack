@@ -1,0 +1,15 @@
+{
+  "compilerOptions": {
+    "jsx": "react",
+    "allowSyntheticDefaultImports": true,
+    "noImplicitAny": true,
+    "module": "es6",
+    "target": "es5",
+    "allowJs": true,
+    "moduleResolution": "node16",
+    "strictNullChecks": true,
+    "typeRoots": ["node_modules/@types", "global.d.ts"]
+  },
+  "include": ["src/**/*", "global.d.ts"],
+  "exclude": ["node_modules", "dist", "scripts"]
+}
